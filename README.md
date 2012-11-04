@@ -32,22 +32,3 @@ $ composer update jgabrielsinner10/phpseclib-bundle
 ```
 
 Composer will install the bundle to your project's `vendor/jgabrielsinner10` directory.
-
-### Step 2: Enable the bundle
-
-Enable the bundle in the kernel:
-
-``` php
-<?php
-// app/AppKernel.php
-
-public function registerBundles()
-{
-    $bundles = array(
-        // ...
-        new Phpseclib\Crypt\PhpseclibBundle(),
-    );
-}
-```
-
-### Step 3: Example to Use it.
