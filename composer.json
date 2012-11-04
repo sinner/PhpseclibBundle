@@ -19,6 +19,12 @@
         "asn.1",
         "BigInteger"
         ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.3.2",
+        "symfony/framework-bundle": ">=2.1,<2.3-dev",
+        "symfony/security-bundle": ">=2.1,<2.3-dev"
+    },
     "homepage": "https://github.com/jgabrielsinner10/phpseclib-bundle",
     "license": "MIT",
     "authors": [
@@ -28,9 +34,6 @@
             "role": "Free Software Especialist"
         }
     ],
-    "require": {
-        "php": ">=5.3.0"
-    },
     "suggest": {
         "ext-mcrypt": "Install the Mcrypt extension in order to speed up a wide variety of cryptographic operations.",
         "ext-gmp": "Install the GMP (GNU Multiple Precision) extension in order to speed up arbitrary precision integer arithmetic operations.",
