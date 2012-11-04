@@ -1,45 +1,20 @@
 {
     "name": "jgabrielsinner10/phpseclib-bundle",
-    "type": "symfony-bundle",
+    "type": "library",
     "description": "PHP Secure Communications Library - Pure-PHP implementations of RSA, AES, SSH2, SFTP, X.509 etc. Created By Jim Wigginton and Modified to be a Symfony2 Bundle.",
-    "keywords": [
-        "security",
-        "crypto",
-        "cryptography",
-        "encryption",
-        "signature",
-        "signing",
-        "rsa",
-        "aes",
-        "ssh",
-        "sftp",
-        "x509",
-        "x.509",
-        "asn1",
-        "asn.1",
-        "BigInteger"
-        ],
-    "minimum-stability": "dev",
-    "require": {
-        "php": ">=5.3.2",
-        "symfony/framework-bundle": ">=2.1,<2.3-dev",
-        "symfony/security-bundle": ">=2.1,<2.3-dev"
-    },
-    "homepage": "https://github.com/jgabrielsinner10/phpseclib-bundle",
+    "keywords": ["log","logging"],
+    "homepage": "http://github.com/Seldaek/monolog",
     "license": "MIT",
     "authors": [
         {
-            "name": "José Gabriel González",
+            "name": "Jose Gabriel Gonzalez",
             "email": "jgabrielsinner10@gmail.com",
-            "role": "Free Software Especialist"
+            "role": "Developer"
         }
     ],
-    "suggest": {
-        "ext-mcrypt": "Install the Mcrypt extension in order to speed up a wide variety of cryptographic operations.",
-        "ext-gmp": "Install the GMP (GNU Multiple Precision) extension in order to speed up arbitrary precision integer arithmetic operations.",
-        "pear-pear/PHP_Compat": "Install PHP_Compat to get phpseclib working on PHP >= 4.3.3." 
+    "require": {
+        "php": ">=5.3.0"
     },
-    "include-path": ["Phpseclib"],
     "autoload": {
         "psr-0": {
             "Crypt": "Phpseclib",
