@@ -19,6 +19,7 @@
         "asn.1",
         "BigInteger"
         ],
+    "homepage": "https://github.com/jgabrielsinner10/phpseclib-bundle",
     "license": "MIT",
     "authors": [
         {
@@ -28,7 +29,7 @@
         }
     ],
     "require": {
-        "php": ">=5.3.8"
+        "php": ">=5.3.0"
     },
     "suggest": {
         "ext-mcrypt": "Install the Mcrypt extension in order to speed up a wide variety of cryptographic operations.",
