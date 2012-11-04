@@ -1,0 +1,47 @@
+{
+    "name": "jgabrielsinner10/phpseclib-bundle",
+    "type": "library",
+    "description": "PHP Secure Communications Library - Pure-PHP implementations of RSA, AES, SSH2, SFTP, X.509 etc. Created By Jim Wigginton and Modified to be a Symfony2 Bundle.",
+    "keywords": [
+        "security",
+        "crypto",
+        "cryptography",
+        "encryption",
+        "signature",
+        "signing",
+        "rsa",
+        "aes",
+        "ssh",
+        "sftp",
+        "x509",
+        "x.509",
+        "asn1",
+        "asn.1",
+        "BigInteger"
+        ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "José Gabriel González",
+            "email": "jgabrielsinner10@gmail.com",
+            "role": "Free Software Especialist"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.8"
+    },
+    "suggest": {
+        "ext-mcrypt": "Install the Mcrypt extension in order to speed up a wide variety of cryptographic operations.",
+        "ext-gmp": "Install the GMP (GNU Multiple Precision) extension in order to speed up arbitrary precision integer arithmetic operations.",
+        "pear-pear/PHP_Compat": "Install PHP_Compat to get phpseclib working on PHP >= 4.3.3." 
+    },
+    "include-path": ["Phpseclib/"],
+    "autoload": {
+        "psr-0": {
+            "Crypt": "Phpseclib/",
+            "File": "Phpseclib/",
+            "Math": "Phpseclib/",
+            "Net": "Phpseclib/"
+        }
+    }
+}
