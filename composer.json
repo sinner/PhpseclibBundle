@@ -36,13 +36,14 @@
         "ext-gmp": "Install the GMP (GNU Multiple Precision) extension in order to speed up arbitrary precision integer arithmetic operations.",
         "pear-pear/PHP_Compat": "Install PHP_Compat to get phpseclib working on PHP >= 4.3.3." 
     },
-    "include-path": ["Phpseclib/"],
+    
     "autoload": {
         "psr-0": {
-            "Crypt": "Phpseclib/",
-            "File": "Phpseclib/",
-            "Math": "Phpseclib/",
-            "Net": "Phpseclib/"
+            "Crypt": "jgabrielsinner10/phpseclib-bundle/Phpseclib/",
+            "File": "jgabrielsinner10/phpseclib-bundle/Phpseclib/",
+            "Math": "jgabrielsinner10/phpseclib-bundle/Phpseclib/",
+            "Net": "jgabrielsinner10/phpseclib-bundle/Phpseclib/"
         }
-    }
+    },
+    "target-dir": "jgabrielsinner10/phpseclib-bundle",
 }
