@@ -17,10 +17,10 @@
     },
     "autoload": {
         "psr-0": {
-            "Phpseclib/Crypt": "lib/Phpseclib/Crypt",
-            "Phpseclib/File": "lib/Phpseclib/File",
-            "Phpseclib/Math": "lib/Phpseclib/Math",
-            "Phpseclib/Net": "lib/Phpseclib/Net"
+            "Phpseclib\\Crypt": "lib/Phpseclib/Crypt/",
+            "Phpseclib\\File": "lib/Phpseclib/File/",
+            "Phpseclib\\Math": "lib/Phpseclib/Math/",
+            "Phpseclib\\Net": "lib/Phpseclib/Net/"
         }
     }
 }
