@@ -17,6 +17,7 @@
     },
     "autoload": {
         "psr-0": {
+            "Phpseclib": "lib/Phpseclib/",
             "Phpseclib\\Crypt": "lib/Phpseclib/Crypt/",
             "Phpseclib\\File": "lib/Phpseclib/File/",
             "Phpseclib\\Math": "lib/Phpseclib/Math/",
