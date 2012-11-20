@@ -2,8 +2,8 @@
 
 namespace Phpseclib\Crypt;
 
-use Phpseclib\Crypt_DES;
-use Phpseclib\Crypt_Hash;
+use Phpseclib\Crypt\Crypt_DES;
+use Phpseclib\Crypt\Crypt_Hash;
 
 /* vim: set expandtab tabstop=4 shiftwidth=4 softtabstop=4: */
 
