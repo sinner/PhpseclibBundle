@@ -14,7 +14,9 @@ Add FOSUserBundle in your composer.json:
 ```js
 {
     "require": {
-        "sinner/phpseclibbundle": "*"
+        ...
+        "sinner/phpseclibbundle": "dev-master"
+        ...
     }
 }
 ```
