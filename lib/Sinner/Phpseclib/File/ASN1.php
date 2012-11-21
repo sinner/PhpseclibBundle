@@ -52,7 +52,7 @@ use Sinner\Phpseclib\File\File_ASN1_Element;
  * Include Math_BigInteger
  */
 if (!class_exists('Math_BigInteger')) {
-    require_once('Math/BigInteger.php');
+    require_once(__DIR__.'/../Math/BigInteger.php');
 }
 
 /**#@+

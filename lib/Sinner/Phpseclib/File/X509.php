@@ -55,7 +55,7 @@ use Sinner\Phpseclib\Crypt\Crypt_Hash;
  * Include File_ASN1
  */
 if (!class_exists('File_ASN1')) {
-    require_once('File/ASN1.php');
+    require_once(__DIR__.'/ASN1.php');
 }
 
 /**
