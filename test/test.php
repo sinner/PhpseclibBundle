@@ -1,4 +1,8 @@
 <?php
+
+	/**
+	 * Entity/Usuario.php
+	 * */	
 	
 	class Usuario {
 
@@ -14,10 +18,18 @@
 
 	}
 
-	require_once('Phpseclib/Crypt/TripleDES.php');
 
-	use Phpseclib\Crypt\Crypt_TripleDES as TripleDES;
-	
+	/**
+	 * Controller/DefaultController.php
+	 * */
+
+	require_once('lib/Sinner/Phpseclib/Crypt/TripleDES.php');
+
+	use Sinner\Phpseclib\Crypt\Crypt_TripleDES as TripleDES;
+    
+
+    //...
+
 	$usuario_obj = new Usuario();
 	$usuario_obj->id = 1;
 	$usuario_obj->nombre = 'Jos&eacute; Gabriel';
@@ -37,5 +49,7 @@
 	var_dump($usuario_obj_encrypt);
 
 	var_dump($usuario);
+
+	//...
 
 ?>
