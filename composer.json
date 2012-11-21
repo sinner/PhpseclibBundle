@@ -1,5 +1,5 @@
 {
-    "name": "jgabrielsinner10/phpseclib-bundle",
+    "name": "sinner/phpseclib-bundle",
     "type": "library",
     "description": "PHP Secure Communications Library - Pure-PHP implementations of RSA, AES, SSH2, SFTP, X.509 etc. Created By Jim Wigginton and Modified to be a Symfony2 Bundle.",
     "keywords": ["Symfony2","phpseclib","crypt","cryptography","Jim Wigginton"],
@@ -17,11 +17,7 @@
     },
     "autoload": {
         "psr-0": {
-            "Phpseclib": "lib/Phpseclib/",
-            "Phpseclib\\Crypt": "lib/Phpseclib/Crypt/",
-            "Phpseclib\\File": "lib/Phpseclib/File/",
-            "Phpseclib\\Math": "lib/Phpseclib/Math/",
-            "Phpseclib\\Net": "lib/Phpseclib/Net/"
+            "Phpseclib": "lib/Phpseclib/"
         }
     }
 }
