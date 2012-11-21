@@ -1,4 +1,4 @@
-# phpseclib - PHP Secure Communications Library modified to be a Symfony2 Bundle
+# PhpseclibBundle - PHP Secure Communications Library modified to be a Symfony2 Bundle
 
 PHP Secure Communications Library - Pure-PHP implementations of RSA, AES, SSH2, SFTP, X.509 etc. Created By Jim Wigginton and Modified to be a Symfony2 Bundle.
 
@@ -14,7 +14,7 @@ Add FOSUserBundle in your composer.json:
 ```js
 {
     "require": {
-        "sinner/phpseclib-bundle": "*"
+        "Sinner/PhpseclibBundle": "*"
     }
 }
 ```
@@ -31,7 +31,7 @@ or
 $ composer update sinner/phpseclib-bundle
 ```
 
-Composer will install the bundle to your project's `vendor/sinner` directory.
+Composer will install the bundle to your project's `vendor/Sinner` directory.
 
 ### Step 2: Activate PHPSecLibBundle in you Symfony2 Project
 
