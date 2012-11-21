@@ -83,7 +83,7 @@ use Sinner\Phpseclib\Math\Math_BigInteger;
  * Used to do Diffie-Hellman key exchange and DSA/RSA signature verification.
  */
 if (!class_exists('Math_BigInteger')) {
-    require_once(__DIR__'/../Math/BigInteger.php');
+    require_once(__DIR__.'/../Math/BigInteger.php');
 }
 
 /**
@@ -94,35 +94,35 @@ if (!class_exists('Math_BigInteger')) {
 // call function_exists() a second time to stop the require_once from being called outside
 // of the auto loader
 if (!function_exists('crypt_random') && !class_exists('Crypt_Random') && !function_exists('crypt_random')) {
-    require_once(__DIR__'/../Crypt/Random.php');
+    require_once(__DIR__.'/../Crypt/Random.php');
 }
 
 /**
  * Include Crypt_Hash
  */
 if (!class_exists('Crypt_Hash')) {
-    require_once(__DIR__'/../Crypt/Hash.php');
+    require_once(__DIR__.'/../Crypt/Hash.php');
 }
 
 /**
  * Include Crypt_TripleDES
  */
 if (!class_exists('Crypt_TripleDES')) {
-    require_once(__DIR__'/../Crypt/TripleDES.php');
+    require_once(__DIR__.'/../Crypt/TripleDES.php');
 }
 
 /**
  * Include Crypt_RC4
  */
 if (!class_exists('Crypt_RC4')) {
-    require_once(__DIR__'/../Crypt/RC4.php');
+    require_once(__DIR__.'/../Crypt/RC4.php');
 }
 
 /**
  * Include Crypt_AES
  */
 if (!class_exists('Crypt_AES')) {
-    require_once(__DIR__'/../Crypt/AES.php');
+    require_once(__DIR__.'/../Crypt/AES.php');
 }
 
 /**#@+
