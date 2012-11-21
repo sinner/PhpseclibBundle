@@ -22,13 +22,13 @@ Add FOSUserBundle in your composer.json:
 Now tell composer to download the bundle by running the command:
 
 ``` bash
-$ php composer.phar update sinner/phpseclib-bundle
+$ php composer.phar update Sinner/PhpseclibBundle
 ```
 or
 
 
 ``` bash
-$ composer update sinner/phpseclib-bundle
+$ composer update Sinner/PhpseclibBundle
 ```
 
 Composer will install the bundle to your project's `vendor/Sinner` directory.
@@ -41,10 +41,9 @@ Edit the appKernel.php file in the $bundles array area:
     //"app/appKernel.php"
     ...
     $bundles = array(
-        new Symfony\Bundle\FrameworkBundle\FrameworkBundle(),
-		...
-		new Sinner\Phpseclib\PhpseclibBundle();
-		...
+	...
+	new Sinner\Phpseclib\PhpseclibBundle();
+	...
     );
     ...
 ```
