@@ -1,11 +1,11 @@
 <?php
 
-namespace Phpseclib\Crypt;
+namespace Sinner\Phpseclib\Crypt;
 
-use Phpseclib\Crypt\Crypt_Hash;
-use Phpseclib\Crypt\Crypt_AES;
-use Phpseclib\Crypt\Crypt_TripleDES;
-use Phpseclib\Math\Math_BigInteger;
+use Sinner\Phpseclib\Crypt\Crypt_Hash;
+use Sinner\Phpseclib\Crypt\Crypt_AES;
+use Sinner\Phpseclib\Crypt\Crypt_TripleDES;
+use Sinner\Phpseclib\Math\Math_BigInteger;
 
 /* vim: set expandtab tabstop=4 shiftwidth=4 softtabstop=4: */
 
@@ -1572,7 +1572,7 @@ class Crypt_RSA {
      * DER-decode the length
      *
      * DER supports lengths up to (2**8)**127, however, we'll only support lengths up to (2**8)**4.  See
-     * {@link http://itu.int/ITU-T/studygroups/com17/languages/X.690-0207.pdf#p=13 X.690 § 8.1.3} for more information.
+     * {@link http://itu.int/ITU-T/studygroups/com17/languages/X.690-0207.pdf#p=13 X.690 ? 8.1.3} for more information.
      *
      * @access private
      * @param String $string
@@ -1593,7 +1593,7 @@ class Crypt_RSA {
      * DER-encode the length
      *
      * DER supports lengths up to (2**8)**127, however, we'll only support lengths up to (2**8)**4.  See
-     * {@link http://itu.int/ITU-T/studygroups/com17/languages/X.690-0207.pdf#p=13 X.690 § 8.1.3} for more information.
+     * {@link http://itu.int/ITU-T/studygroups/com17/languages/X.690-0207.pdf#p=13 X.690 ? 8.1.3} for more information.
      *
      * @access private
      * @param Integer $length
@@ -1880,7 +1880,7 @@ class Crypt_RSA {
      *
      * Protects against a particular type of timing attack described.
      *
-     * See {@link http://codahale.com/a-lesson-in-timing-attacks/ A Lesson In Timing Attacks (or, Don’t use MessageDigest.isEquals)}
+     * See {@link http://codahale.com/a-lesson-in-timing-attacks/ A Lesson In Timing Attacks (or, Don?t use MessageDigest.isEquals)}
      *
      * Thanks for the heads up singpolyma!
      *

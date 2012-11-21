@@ -1,12 +1,12 @@
 <?php
 
-namespace Phpseclib\Net;
+namespace Sinner\Phpseclib\Net;
 
-use Phpseclib\Crypt\Crypt_Hash;
-use Phpseclib\Crypt\Crypt_AES;
-use Phpseclib\Crypt\Crypt_RC4;
-use Phpseclib\Crypt\Crypt_TripleDES;
-use Phpseclib\Math\Math_BigInteger;
+use Sinner\Phpseclib\Crypt\Crypt_Hash;
+use Sinner\Phpseclib\Crypt\Crypt_AES;
+use Sinner\Phpseclib\Crypt\Crypt_RC4;
+use Sinner\Phpseclib\Crypt\Crypt_TripleDES;
+use Sinner\Phpseclib\Math\Math_BigInteger;
 
 /* vim: set expandtab tabstop=4 shiftwidth=4 softtabstop=4: */
 

@@ -1,9 +1,9 @@
 <?php
 
-namespace Phpseclib\Crypt;
+namespace Sinner\Phpseclib\Crypt;
 
-use Phpseclib\Crypt\Crypt_DES;
-use Phpseclib\Crypt\Crypt_Hash;
+use Sinner\Phpseclib\Crypt\Crypt_DES;
+use Sinner\Phpseclib\Crypt\Crypt_Hash;
 
 /* vim: set expandtab tabstop=4 shiftwidth=4 softtabstop=4: */
 

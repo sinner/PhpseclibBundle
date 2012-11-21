@@ -1,10 +1,10 @@
 <?php
 
-namespace Phpseclib\File;
+namespace Sinner\Phpseclib\File;
 
-use Phpseclib\File\File_ASN1;
-use Phpseclib\Crypt\Crypt_RSA;
-use Phpseclib\Crypt\Crypt_Hash;
+use Sinner\Phpseclib\File\File_ASN1;
+use Sinner\Phpseclib\Crypt\Crypt_RSA;
+use Sinner\Phpseclib\Crypt\Crypt_Hash;
 
 /* vim: set expandtab tabstop=4 shiftwidth=4 softtabstop=4: */
 

@@ -1,8 +1,8 @@
 <?php
 
-namespace Phpseclib\Crypt;
+namespace Sinner\Phpseclib\Crypt;
 
-use Phpseclib\Math\Math_BigInteger;
+use Sinner\Phpseclib\Math\Math_BigInteger;
 
 /* vim: set expandtab tabstop=4 shiftwidth=4 softtabstop=4: */
 

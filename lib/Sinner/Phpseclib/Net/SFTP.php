@@ -1,8 +1,8 @@
 <?php
 
-namespace Phpseclib\Net;
+namespace Sinner\Phpseclib\Net;
 
-use Phpseclib\Net\Net_SSH2;
+use Sinner\Phpseclib\Net\Net_SSH2;
 /* vim: set expandtab tabstop=4 shiftwidth=4 softtabstop=4: */
 
 /**

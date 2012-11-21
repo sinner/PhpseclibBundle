@@ -1,7 +1,7 @@
 <?php
-namespace Phpseclib\Crypt;
+namespace Sinner\Phpseclib\Crypt;
 
-use Phpseclib\Crypt\Crypt_Rijndael;
+use Sinner\Phpseclib\Crypt\Crypt_Rijndael;
 
 /* vim: set expandtab tabstop=4 shiftwidth=4 softtabstop=4: */
 
