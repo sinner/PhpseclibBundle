@@ -14,7 +14,7 @@ Add FOSUserBundle in your composer.json:
 ```js
 {
     "require": {
-        "Sinner/PhpseclibBundle": "*"
+        "sinner/phpseclibbundle": "*"
     }
 }
 ```
@@ -31,7 +31,7 @@ or
 $ composer update Sinner/PhpseclibBundle
 ```
 
-Composer will install the bundle to your project's `vendor/Sinner` directory.
+Composer will install the bundle to your project's `vendor/sinner` directory.
 
 ### Step 2: Activate PHPSecLibBundle in you Symfony2 Project
 
