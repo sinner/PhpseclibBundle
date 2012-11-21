@@ -15,7 +15,7 @@ Add FOSUserBundle in your composer.json:
 {
     "require": {
         ...
-        "sinner/phpseclibbundle": "dev-master"
+        "sinner/phpseclib-bundle": "dev-master"
         ...
     }
 }
@@ -24,13 +24,13 @@ Add FOSUserBundle in your composer.json:
 Now tell composer to download the bundle by running the command:
 
 ``` bash
-$ php composer.phar update Sinner/PhpseclibBundle
+$ php composer.phar update sinner/phpseclib-bundle
 ```
 or
 
 
 ``` bash
-$ composer update Sinner/PhpseclibBundle
+$ composer update sinner/phpseclib-bundle
 ```
 
 Composer will install the bundle to your project's `vendor/sinner` directory.
