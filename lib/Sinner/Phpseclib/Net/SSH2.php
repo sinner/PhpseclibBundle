@@ -707,7 +707,11 @@ class Net_SSH2 {
      * @access private
      */
     protected $quiet_mode = false;
-
+    
+    /**
+     * @notify by damiengo (github)
+     * /
+     
     /**
      * Default Constructor.
      *
@@ -719,7 +723,7 @@ class Net_SSH2 {
      * @return Net_SSH2
      * @access public
      */
-    function Net_SSH2($host, $port = 22, $timeout = 10)
+    function __construct($host, $port = 22, $timeout = 10)
     {
         $this->message_numbers = array(
             1 => 'NET_SSH2_MSG_DISCONNECT',
@@ -2951,4 +2955,16 @@ class Net_SSH2 {
 
         return $this->signature_format . ' ' . base64_encode($this->server_public_host_key);
     }
+    
+    /**
+     * If you need to set the socket timeout for your SSH connection, since you have a long SSH command.
+     * 
+     * @author Damiengo (github)
+     * @param timeout
+     * */
+    public function setSocketTimeout($timeout)
+    {
+        stream_set_timeout($this->fsock, $timeout);
+    }
+    
 }
