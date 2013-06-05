@@ -1474,7 +1474,7 @@ class Net_SSH2 {
         }
 
         // although PHP5's get_class() preserves the case, PHP4's does not
-        if (is_object($password) && strtolower(get_class($password)) == 'crypt_rsa') {
+        if (is_object($password) && stristr(get_class($password), 'crypt_rsa') {
             return $this->_privatekey_login($username, $password);
         }
 
