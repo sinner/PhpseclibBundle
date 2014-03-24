@@ -548,7 +548,7 @@ class Net_SFTP extends Net_SSH2 {
             $dir = $dir[0] == '/' ? '/' . rtrim(substr($dir, 1), '/') : rtrim($dir, '/');
 
             if ($dir == '.' || $dir == $this->pwd) {
-                return $this->pwd . $file;
+                return $this->pwd . '/' . $file;
             }
 
             if ($dir[0] != '/') {
