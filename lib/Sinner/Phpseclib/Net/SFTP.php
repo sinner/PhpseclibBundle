@@ -1542,6 +1542,7 @@ class Net_SFTP extends Net_SSH2 {
         $this->_logError($response);
 
         // check the status from the NET_SFTP_STATUS case in the above switch after the file has been closed
+        extract(unpack('Nstatus', $this->_string_shift($response, 4)));
         if ($status != NET_SFTP_STATUS_OK) {
             return false;
         }
