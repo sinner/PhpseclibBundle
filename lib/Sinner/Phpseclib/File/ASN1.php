@@ -2,7 +2,7 @@
 
 namespace Sinner\Phpseclib\File;
 
-use Sinner\Phpseclib\Math\BigInteger;
+use Sinner\Phpseclib\Math\Math_BigInteger;
 use Sinner\Phpseclib\File\File_ASN1_Element;
 
 
